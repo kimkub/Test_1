@@ -1,0 +1,28 @@
+{
+  "name": "json",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Test_1",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "connect-redis": "^3.3.2",
+    "cookie-session": "^2.0.0-beta.3",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "express-validator": "^4.3.0",
+    "jade": "^1.11.0",
+    "mongoose": "^5.0.0-rc0",
+    "morgan": "^1.9.0",
+    "node-sass-middleware": "^0.11.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}

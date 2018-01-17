@@ -1,0 +1,16 @@
+doctype html
+html
+    head
+        title= title
+        link(rel="stylesheet", href="/css/main.css")
+    body
+        if username
+            h2 Hello #{username}
+            div
+                form(action="/logout", name="logout", method="post")
+                    input(type="submit", value="Log out")
+        else
+            div
+                a(href="/signup") Sign up
+            div
+                a(href="/login") Log in

@@ -1,0 +1,23 @@
+doctype html
+html
+    head
+        title= title
+    body
+        form(action="/signup", name="signup", method="post")
+        div
+            label(for="username") Username
+            input(type="text", name="username", placeholder="username")
+        div
+            label(for="firstname") Firstname 
+            input(type="text", name="firstname", placeholder="Firstname")
+        div
+            label(for="lastname") Lastname 
+            input(type="text", name="lastname", placeholder="Lastname")
+        div
+            label(for="email") Email 
+            input(type="email", name="email", placeholder="youremail@email.com")
+        div
+            label(for="password") Password 
+            input(type="password", name="password", placeholder="Password")
+        div
+            input(type="submit", value="Sign up")
